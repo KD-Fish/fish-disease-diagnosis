@@ -1,0 +1,191 @@
+/* 基本的なスタイル設定 */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 700px;
+    margin: 1.5% auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #005f5f;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #555;
+    margin: 1rem 0;
+}
+
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1.2rem;
+    color: #ffffff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a.button:hover {
+    background-color: #0056b3;
+}
+
+a.button:focus {
+    outline: 2px solid #0056b3;
+}
+
+/* フォームページのスタイル */
+.form-container {
+    width: 700px;
+    margin: 1.5% auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form p {
+    margin-bottom: 1rem;
+}
+
+form button {
+    align-self: center;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+form button:focus {
+    outline: 2px solid #0056b3;
+}
+
+
+
+/* ページ一覧のスタイル */
+.page-list-container {
+    width: 700px;
+    margin: 1.5% auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #0056b3;
+}
+
+div.empty-message {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #777;
+}
+
+
+/* ページ詳細のスタイル */
+.page-detail-container {
+    width: 700px;
+    margin: 1.5% auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+div {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem 0;
+}
+
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #ffffff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+a.button:hover {
+    background-color: #0056b3;
+}
+
+a.button:focus {
+    outline: 2px solid #0056b3;
+}

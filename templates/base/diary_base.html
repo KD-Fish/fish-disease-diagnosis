@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8" />
+    <title>名無しブログ</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'diary/css/base.css' %}">
+    <script src="{% static 'diary/js/base.js' %}" defer></script>
+</head>
+<body>
+    <h1><a href="{% url 'diary:index' %}">名無し掲示板</a></h1>
+    {% block body %}
+    {% endblock %}
+</body>
+</html>

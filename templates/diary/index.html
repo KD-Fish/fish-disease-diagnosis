@@ -1,0 +1,11 @@
+{% extends "base/diary_base.html" %}
+
+{% block body %}
+<div class="container">
+    <div id="datetime"></div>
+    <br>
+    <a href="{% url 'diary:page_create' %}" class="button">日記書く</a>
+    <br>
+    <a href="{% url 'diary:page_list' %}" class="button">ページ一覧</a>
+</div>
+{% endblock %}
